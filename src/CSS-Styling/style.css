@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+  /* overflow: hidden; */
+}
+
+[class^="box-"] {
+  display: grid;
+  place-items: center;
+  border: solid 5px orchid;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5, green, blue);
+  color: white;
+}
+
+body {
+  background: linear-gradient(lightblue, darkgreen);
+  height: 100vh;
+}
+
+.beginner {
+  height: 90vh;
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+
+  grid-template-rows: auto 1fr auto;
+  gap: 20px;
+}
