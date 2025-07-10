@@ -3,7 +3,10 @@
 // import UseEffectHook from "./components/Hooks/UseEffectHook"
 // import UseReducer from "./components/Hooks/UseReducer"
 // import UseStateHook from "./components/Hooks/UseStateHook"
-import MasterCssGrid from "./CSS-Styling/MasterCssGrid"
+// import MyTypeScriptTutorial from "./TypeScriptFolder/MyTypeScriptTutorial"
+// import MasterCssGrid from "./CSS-Styling/MasterCssGrid"
+
+import TailwindCSS from "./CSS-Styling/TailwindCSS"
 
 // import ZustandComponent from "./zustand-component/zustandComponent"
 
@@ -19,12 +22,17 @@ function App() {
 
   return (
    <div className="flex flex-col gap-10 items-center">
+
+
+    <TailwindCSS />
+    {/* <MyTypeScriptTutorial /> */}
     {/* <UseReducer />
     <UseStateHook />
     <UseEffectHook />
     <UseContextHook />  */}
-     <MasterCssGrid /> 
+    {/* <MasterCssGrid />  */}
     {/* <ZustandComponent /> */}
+
    </div>
   )
 }
