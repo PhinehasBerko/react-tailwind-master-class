@@ -4,6 +4,7 @@ import TailwindComponent from './CSS-Styling/TailwindComponent'
 import FlexComponent from './CSS-Styling/FlexComponent'
 import AnimationComponent from './CSS-Styling/AnimationComponent'
 import TransitionComponent from './CSS-Styling/TransitionComponent'
+import HtmlCssComponent from './components/HtmlCssComponent'
 // import ListRender from './React_121/17_ListRedering'
 // import MyTypeScriptTutorial from './TypeScriptFolder/MyTypeScriptTutorial'
 
@@ -16,6 +17,7 @@ const ReactApp = () => {
         <FlexComponent />
         <AnimationComponent />
         <TransitionComponent />
+        <HtmlCssComponent />
 
       {/* <MyTypeScriptTutorial /> */}
     </div>
